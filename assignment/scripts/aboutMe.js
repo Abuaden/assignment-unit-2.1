@@ -58,7 +58,7 @@ const allowedPets = 5;
 //      if it's not true,  set `result` to be "How about we stay home?"
 //      Console log the value of `result`
 let result; 
-if (adventurous = true) {
+if (adventurous === true) {
   console.log('Adventures are great!');
 }
 
@@ -73,7 +73,7 @@ else{
 //      set `diceRoll` to be "Roll the dice!"
 //      Console log the value of `diceRoll`
 
-let diceRoll = 'Try again later';
+let diceRoll = 'Try again later.';
 
 if (luckyNumber === 2 && adventurous === true){ 
  diceRoll = 'Roll the dice!';
